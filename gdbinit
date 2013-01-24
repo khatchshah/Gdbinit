@@ -48,6 +48,73 @@
 #   TODO:
 #
 
+# _________________khatchshah___begin___________
+
+define niw
+	if $argc != 0
+		help niw
+	else
+		shell cls
+		nexti
+		context
+	end
+end
+document niw
+print clear screen then nexti then context ( nexti window )
+usage: niw
+end
+
+
+define nw
+	if $argc != 0
+		help nw
+	else
+		shell cls
+		next
+		context
+	end
+end
+document nw
+print clear screen then next then context ( next window )
+usage: nw
+end
+
+
+define siw
+	if $argc != 0
+		help siw
+	else
+		shell cls
+		stepi
+		context
+	end
+end
+document siw
+print clear screen then stepi then context ( stepi window )
+usage: siw
+end
+
+
+define sw
+	if $argc != 0
+		help sw
+	else
+		shell cls
+		step
+		context
+	end
+end
+document sw
+print clear screen then step then context ( step window )
+usage: sw
+end
+
+
+
+# _________________khatchshah___end_____________
+
+
+
 # __________________gdb options_________________
 
 # set to 1 to have ARM target debugging as default, use the "arm" command to switch inside gdb
