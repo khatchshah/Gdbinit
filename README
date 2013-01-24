@@ -8,3 +8,12 @@ You should read the header of the script for important information regarding som
 
 Have fun,
 fG!
+
+______________________________
+
+khatchshah:
+
+Tested in GNU/Linux mandriva 2010 powerpack and worked fine .
+Remove changelog from .gdbinit to 'changelog' file .
+
+EOF
